@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenShop</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <!-- gonna put background for nav -->
+        <div class="header__nav-bckg">
+            <!-- container here it goes -->
+            <div class="container">
+                <!-- nav start -->
+                <nav class="header__nav">
+                    <ul class="nav justify-content-end header__nav-list">
+                        <li class="dropdown">
+                            <a class="header__nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">English
+                                <span href="#" class="header__nav-drop far"></span>
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <div class="header__nav-menu">
+                                    <li><a class="header__nav-droplink" href="#">English</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="header__nav-droplink dop" href="#">Russian</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li>
+                            <span href="#" class="header__nav-tel far"></span>
+                            <a class="header__nav-link" aria-current="page" href="tel:(907) 555-0101">(907) 555-0101</a>
+                        </li>
+                        <li>
+                            <span href="#" class="header__nav-log fal"></span>
+                            <a class="header__nav-link" href="#">Sign in</a>
+                        </li>
+                        <li>
+                            <span href="" class="header__nav-cart fal"></span>
+                            <a class="header__nav-link" href="#">Cart</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- nav end -->
+            </div>
+        </div>
+        <!-- search panel -->
+        <!-- container -->
+        <div class="container">
+            <div class="navbar navbar-expand-lg header__search">
+                <a class="navbar-brand header__nav-img" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="header__toggler-icon fas" > </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex header__form">
+                        <input class="form-control header__search-form" type="search"
+                            placeholder="What are You looking for?" aria-label="Search">
+                        <button class="header__search-btn" type="submit"> <a href=""
+                                class="header__search-icon far"></a>Search our store</button>
+                    </form>
+                </div>
+            </div>
+            <!-- feautures start -->
+            <div class="header__feautures">
+                <ul class="nav justify-content-evenly">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle  header__feautures-link" data-bs-toggle="dropdown" href="#"
+                            role="button" aria-expanded="false">Cell Phones & Tablets
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="d-flex header__feautures-menu">
+                                <div class="header__feautures-drop">
+                                    <li><a href="#phones">
+                                            <h1 class="header__feautures-title">Cell Phones</h1>
+                                        </a>
+                                    </li>
+                                    <li><a class="header__feautures-droplink" href="#">Xiaomi</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Apple</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Samsung</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Huawei</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">BQ</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Nokia</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Inovi</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Vivo</a></li>
+                                </div>
+                                <div class="header__feautures-drop">
+                                    <li><a href="">
+                                            <h1 class="header__feautures-title">Tablets</h1>
+                                        </a>
+                                    </li>
+                                    <li><a class="header__feautures-droplink" href="#">Xiaomi</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Apple</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Samsung</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">Huawei</a></li>
+                                    <li><a class="header__feautures-droplink" href="#">BQ</a></li>
+                                    <li><a class="header__feautures-droplink" href="phones.html">More....</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="header__feautures-link" aria-current="page" href="#computers">Computers & Laptop</a>
+                    </li>
+                    <li>
+                        <a class="header__feautures-link" href="#">TV & Video</a>
+                    </li>
+                    <li>
+                        <a class="header__feautures-link" href="#accesories">Asseccories</a>
+                    </li>
+                    <li>
+                        <a class="header__feautures-link" href="#">Home appliance</a>
+                    </li>
+                    <li>
+                        <a class="header__feautures-link" href="#">Video Games & Consoles</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- feautures end -->
+            <!-- sliders start -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators align-items-center">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="header__slider-main d-flex align-items-center justify-content-evenly">
+                            <img src="images/Iphones.png" class="d-block header__slider-img" alt="...">
+                            <div class="header__slider-content">
+                                <h1 class="header__slider-title">
+                                    Color your days with small joy
+                                </h1>
+                                <a href="phones.html" class="header__slider-link">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="header__slider-main d-flex align-items-center justify-content-evenly">
+                            <img src="images/Watches.png" class="header__slider-img d-block" alt="...">
+                            <div class="header__slider-content">
+                                <h1 class="header__slider-title">
+                                    Color your days with small joy
+                                </h1>
+                                <a href="phones.html" class="header__slider-link">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gotta comment due to the fact that it might not work -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div> -->
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="main">
+        <!-- container -->
+        <div class="container">
+            <!-- gonna put joint block for grids -->
+            <div class="main__content">
+                <div class="main__content-block position-relative">
+                    <img src="images/Suunto.png" alt="" class="main__content-img">
+                    <div class="main__content-info position-absolute top-0">
+                        <p class="main__content-percent">-57%</p>
+                        <div class="">
+                            <p class="main__content-title mart2">Suunto SS050143000</p>
+                            <p class="main__content-price">70$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content-block position-relative">
+                    <img src="images/AirPods.png" alt="" class="main__content-img mart">
+                    <div class="main__content-info position-absolute top-0">
+                        <p class="main__content-percent">-30%</p>
+                        <div class="">
+                            <p class="main__content-title m-0">Airpods 2.1</p>
+                            <p class="main__content-price m-0">95$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content-block position-relative">
+                    <img src="images/PowerBank.png" alt="" class="main__content-img">
+                    <div class="main__content-info position-absolute top-0 padding">
+                        <div class="">
+                            <p class="main__content-title m-0 letter">Xiaomi Mi Power Bank 2s 10000</p>
+                            <p class="main__content-price m-0">9$</p>
+                        </div>
+                        <p class="main__content-percent m-0">-20%</p>
+                    </div>
+                </div>
+                <div class="main__content-block position-relative">
+                    <img src="images/Remax.png" alt="" class="main__content-img">
+                    <div class="main__content-info position-absolute top-0 padding">
+                        <div class="">
+                            <p class="main__content-title">Remax RP-W1 White</p>
+                            <p class="main__content-price">10$</p>
+                        </div>
+                        <p class="main__content-percent m-0">-11%</p>
+                    </div>
+                </div>
+            </div>
+            <!-- button under the grids -->
+            <a href="#" class="main__button">LEARN MORE</a>
+            <h2 class="main__title" id="phones">Cell Phone</h2>
+            <!-- begining of iphones -->
+            <div class="main__iphone d-flex justify-content-between flex-wrap">
+                <div class="main__iphone-info position-relative">
+                    <img src="images/Iphone12ProMAx.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">IPhone 12 Pro Max 128GB (Gray)</h4>
+                        <p class="main__iphone-price">1300$</p>
+                        <a href="detail.html" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/Iphone11Pro.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">IPhone 11 Pro 128GB (Yellow)</h4>
+                        <p class="main__iphone-price">700$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/Iphone12Pro.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">IPhone 12 Pro 256 GB (Blue)</h4>
+                        <p class="main__iphone-price">1500$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/Iphone11Pro256.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">IPhone 11 Pro 256 GB (Red)</h4>
+                        <p class="main__iphone-price">850$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <a href="phones.html" class="main__button">LEARN MORE</a>
+            <h2 class="main__title" id="computers">Computers & Laptop</h2>
+            <!-- begining of computers -->
+            <div class="main__iphone d-flex justify-content-between flex-wrap">
+                <div class="main__iphone-info position-relative">
+                    <img src="images/LenonvoIdeaPad.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Lenovo IdeaPad L3 15IML05</h4>
+                        <p class="main__iphone-price">1350$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/DreamMachine16.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Dream Machines G1650Ti-15UA65)</h4>
+                        <p class="main__iphone-price">1430$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/appleMAcBookAir13.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Apple MacBook Air 13" 2020</h4>
+                        <p class="main__iphone-price">1723$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/DreamMachine15.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Dream Machines 15UA51</h4>
+                        <p class="main__iphone-price">1200$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <a href="phones.html" class="main__button">LEARN MORE</a>
+            <!-- PS5 start -->
+            <div class="main__ps5 position-relative">
+                <img src="images/PS5.png" alt="" class="main__ps5-img">
+                <div class="main__ps5-content position-absolute top-0 d-flex flex-column justify-content-center">
+                    <span class="main__ps5-img"></span>
+                    <h2 class="main__ps5-title">PlayStation 5 Console</h2>
+                    <a href="#" class="main__ps5-link">WATCH NOW</a>
+                </div>
+            </div>
+            <h2 class="main__title" id="accesories">Top Seller</h2>
+            <!-- begining of accesories -->
+            <div class="main__iphone d-flex justify-content-between flex-wrap">
+                <div class="main__iphone-info position-relative">
+                    <img src="images/SmartWatch34light.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Smart Watch W34 | ZM (White)</h4>
+                        <p class="main__iphone-price mb">29$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/AirPods2.1.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">AirPods 2.1</h4>
+                        <p class="main__iphone-price mb">135$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/SmartWatch34dark.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Smart Watch W34 | ZM (Black)</h4>
+                        <p class="main__iphone-price mb">29$</p>
+                        <a href="#" class="main__iphone-link">BUY</a>
+                    </div>
+                </div>
+                <div class="main__iphone-info position-relative">
+                    <img src="images/CofeeMAchine.png" alt="" class="main__iphone-img">
+                    <span class="main__iphone-icon far" href="#"></span>
+                    <div class="main__iphone-content position-absolute">
+                        <h4 class="main__iphone-title">Coffee machine VITEK VT-1526</h4>
+                        <p class="main__iphone-price mb">78$</p>
+                        <a href="#" class="main__iphone-link ">BUY</a>
+                    </div>
+                </div>
+            </div>
+            <a href="phones.html" class="main__button">LEARN MORE</a>
+        </div>
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a href="" class="footer__content-img"></a>
+                <div class="footer__content-form">
+                    <p class="footer__content-text">Subscribe to Newslatter</p>
+                    <form action="" class="footer__content-sign d-flex">
+                        <input type="text" class="footer__content-input">
+                        <button class="footer__content-btn">Sign up</button>
+                    </form>
+                    <div class="footer__content-links">
+                        <a href="" class="footer__content-link">News</a>
+                        <a href="" class="footer__content-link">Help</a>
+                        <a href="" class="footer__content-link">Contat</a>
+                    </div>
+                </div>
+                <div class="footer__content-icons">
+                    <a href="" class="footer__content-icon fab"></a>
+                    <a href="" class="footer__content-icon fab"></a>
+                    <a href="" class="footer__content-icon fab"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+
+
+    <!-- linking script -->
+    <script src="libs/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,574 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #FFFFFF;
+        --secondary-color: #313131;
+    }
+
+    .header__nav-img::before {
+        content: url('../images/LogoLight.png');
+    }
+
+    body {
+        background: #313131;
+    }
+
+    .header__nav-bckg {
+        background: #0C0C0C;
+    }
+
+    .header__nav-link {
+        color: var(--primary-color) !important;
+    }
+
+    .header__nav-cart::before,
+    .header__nav-log::before,
+    .header__nav-tel::before,
+    .header__nav-drop::before {
+        color: var(--primary-color);
+    }
+
+    .header__slider-img {
+        background: radial-gradient(29.86% 47.86% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .header__search-form {
+        background: var(--secondary-color);
+    }
+
+    .header__search-btn {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+        border-left: none;
+    }
+
+    .header__search-icon::before {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+
+    .main__iphone-icon::before {
+        color: var(--primary-color);
+    }
+
+    .form-control [placeholder] {
+        color: var(--primary-color);
+    }
+
+    input[type="search"]::-webkit-input-placeholder {
+        color: var(--primary-color);
+    }
+
+    .form-control:focus {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        box-shadow: none;
+        border-color: var(--primary-color);
+    }
+
+    .header__slider-title {
+        color: var(--primary-color);
+    }
+
+    .header__slider-link {
+        color: var(--primary-color);
+        background: none;
+        border: 1px solid white;
+    }
+
+    .header__nav-droplink {
+        color: var(--primary-color);
+        background: var(--secondary-color);
+    }
+
+    .dropdown-menu {
+        background: var(--secondary-color);
+    }
+
+    .dropdown-divider {
+        color: var(--primary-color);
+        opacity: 1;
+    }
+
+    .header__nav-link:hover {
+        color: var(--primary-color);
+    }
+
+    .main__content-percent {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+    }
+
+    .main__content-title {
+        color: var(--secondary-color);
+    }
+
+    .main__content-price {
+        color: var(--secondary-color);
+    }
+
+    .main__button {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+    }
+
+    .main__button:hover {
+        color: var(--primary-color);
+    }
+
+    .main__iphone-img {
+        background: radial-gradient(45% 10% at 51% 68%, rgba(255, 255, 255, 0.2) 47%, rgba(49, 49, 49, 0) 100%)
+    }
+
+    .main__iphone-info {
+        box-shadow: none;
+    }
+
+    .main__iphone-info:hover {
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    }
+
+    .main__ps5-img::before {
+        content: url('../images/PalyStationLight.png');
+    }
+
+    .main__ps5-link {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+    }
+
+    .main__ps5-link:hover {
+        color: var(--primary-color);
+    }
+
+    .main__iphone-link {
+        color: var(--primary-color);
+        background: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    .main__iphone-link:hover {
+        color: var(--primary-color);
+    }
+
+    .footer__content {
+        background: black;
+    }
+
+    .footer {
+        background: black;
+    }
+
+    .footer__content-btn {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid white;
+    }
+
+    .footer__content-link,
+    .footer__content-text {
+        color: var(--primary-color);
+    }
+
+    .footer__content-link:hover {
+        color: var(--primary-color);
+    }
+
+    .footer__content-icon::before {
+        color: var(--primary-color) !important;
+    }
+
+    .main__xbox-link {
+        color: var(--primary-color) !important;
+        background: var(--secondary-color);
+    }
+
+    .main__details-link {
+        color: var(--primary-color) !important;
+        background: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    .main__vr-link {
+        color: var(--primary-color) !important;
+        background: var(--secondary-color);
+        border: 1px solid white;
+    }
+
+    ::marker {
+        color: var(--primary-color);
+    }
+}
+
+/* 1399  */
+
+@media (max-width: 1399px) {
+    .main__ps5-img {
+        width: 100%;
+    }
+
+    .main__iphone {
+        justify-content: space-around !important;
+    }
+
+    .main__content-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .main__content-img {
+        width: 100%;
+    }
+    
+    .main__xbox-img {
+        width: 100%;
+    }
+}
+
+/* 1199 */
+
+@media (max-width: 1199px) {
+    .header__slider-img {
+        width: 50%;
+    }
+
+    .header__slider-link {
+        margin-top: 30px;
+    }
+
+    .main__content-block:nth-of-type(3) {
+        grid-column: span 2;
+    }
+
+    .main__content-block:nth-of-type(4) {
+        grid-column: span 2;
+    }
+
+    .main__content-block:nth-of-type(1) {
+        grid-row: 1;
+    }
+
+    .main__iphone {
+        margin-bottom: 48px;
+    }
+
+    .header__search-btn {
+        font-size: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header__search-form {
+        margin-left: 80px;
+    }
+
+    .mart {
+        margin-top: 90px;
+    }
+
+    .main__details-image {
+        width: 320px;
+    }
+
+    .main__vr-desc {
+        max-width: 370px;
+    }
+
+}
+
+/* 991 */
+
+@media (max-width: 991px) {
+    .header__toggler-icon::before {
+        content: '\f0c9';
+        font-size: 30px;
+    }
+
+    .mart2 {
+        margin-top: 52px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .header__form {
+        justify-content: center;
+    }
+
+    .header__search-form {
+        margin-left: 0;
+    }
+
+    .footer__content-input {
+        width: 300px;
+    }
+
+    .footer__content-btn {
+        padding: 6px 40px;
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    .footer__content-icon:nth-of-type(1)::before {
+        margin-right: 0;
+    }
+
+    .footer__content-icon:nth-of-type(2)::before {
+        margin-right: 0;
+    }
+
+    .footer__content-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__ps5-title {
+        margin-top: -11px;
+        margin-bottom: 18px;
+    }
+
+    .main__vr-desc {
+        display: none;
+    }
+    
+    .main__vr-link {
+        margin-top: 13px !important;
+    }
+}
+
+/* 767 */
+
+@media (max-width: 767px) {
+    .header__slider-main {
+        flex-wrap: wrap;
+    }
+
+    .header__slider-img {
+        width: 100%;
+    }
+
+    .header__slider-title {
+        font-size: 33px;
+        line-height: 58px;
+    }
+
+    .carousel-indicators [data-bs-target].active {
+        display: none;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+
+    .header__feautures-link {
+        font-size: 19px;
+        line-height: 54px;
+    }
+
+    .header__search-btn {
+        font-size: 0;
+        padding-right: 0;
+    }
+
+    .header__search-icon::before {
+        padding: 10px 36px ;
+    }
+
+    .header__search-form {
+        width: 390px;
+    }
+
+    .main__content-block {
+        width: 70%;
+    }
+
+    .main__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__content-block:nth-of-type(2) {
+        height: 285px;
+    }
+
+    .main__title {
+        text-align: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .footer__content-icons {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main__title:nth-of-type(3) {
+        margin-top: 40px;
+    }
+
+    .main__xbox-title1 {
+        display: none;
+    }
+
+    .main__vr-content {
+        right: 0;
+    }
+
+    .main__vr-link {
+        width: 130px;
+        font-size: 14px;
+    }
+}
+
+/* 576 */
+
+@media (max-width: 567px) {
+    .main__ps5-title {
+        display: none;
+    }
+
+    .main__xbox-title {
+        font-size: 30px;
+    }
+}
+
+/* 508 */
+
+@media (max-width: 508px) {
+    .header__nav-list {
+        justify-content: center !important;
+    }
+
+    .header__nav-tel::before {
+        margin-left: 47px;
+    }
+
+    .header__search-form {
+        width: 270px;
+    }
+
+    .main__iphone-link {
+        opacity: 1;
+    }
+}
+
+/* 485 */
+
+@media (max-width: 485px) {
+    .main__details-image {
+        width: 280px;
+    }
+
+    .main__vr-title {
+        font-size: 30px;
+    }
+}
+
+/* 450 */
+
+@media (max-width: 450px) {
+    .footer__content-input {
+        width: 270px;
+    }
+
+    .main__content-block {
+        width: 80%;
+    }
+
+    .header__search-form {
+        width: 200px;
+        font-size: 15px;
+    }
+}
+
+/* 436 */
+
+@media (max-width: 436px) {
+    .dropdown-menu.show {
+        transform: translate3d(-52px, 42px, 0px) !important;
+    }
+
+    .main__xbox-link {
+        width: 130px;
+    }
+
+    .main__details-image {
+        width: 220px;
+    }
+
+    .main__details-title {
+        font-size: 23px;
+        line-height: 46px;
+    }
+} 
+
+/* 400 */
+
+@media (max-width: 400px) {
+    .footer__content-input {
+        width: 220px;
+    }
+
+    .main__content-block {
+        width: 90%;
+    }
+
+    .footer__content-btn {
+        padding: 6px 20px;
+    }
+
+    .main__vr-title {
+        line-height: 20px;
+    }
+}
+
+/* 375 */
+
+@media (max-width: 375px) {
+    .main__ps5-link {
+        width: 150px;
+    }
+
+    .main__content-block {
+        width: 95%;
+    }
+
+    .main__content-title {
+        margin-bottom: 0px;
+    }
+
+    .dropdown-menu.show {
+        width: 300px !important;
+    }
+    
+    .dropdown-menu {
+        padding-left: 5px;
+    }
+
+    .main__xbox-img {
+        height: 200px;
+    }
+
+    .main__xbox-title {
+        line-height: 29px;
+    }
+}
+
+/* 345 */
+
+@media (max-width: 345px) {
+    .header__nav-log::before {
+        margin-left: 0px;
+    }
+
+    .header__nav-list {
+        justify-content: space-between !important;
+    }
+}
+
